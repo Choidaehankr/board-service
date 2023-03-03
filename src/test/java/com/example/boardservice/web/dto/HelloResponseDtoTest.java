@@ -12,8 +12,8 @@ class HelloResponseDtoTest {
     @Test
     @DisplayName("Lombok 기능 테스트")
     void lombokTest() {
-        String name = "test";
-        int amount = 1000;
+        String name = "CodeDeploy";
+        int amount = 9999;
 
         HelloResponseDto dto = new HelloResponseDto(name, amount);
 
